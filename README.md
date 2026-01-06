@@ -1,5 +1,7 @@
 # Real Estate Website Design
 
+file 
+
 *Automatically synced with your [v0.app](https://v0.app) deployments*
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/rahulsol23/v0-real-estate-website-design)
@@ -132,5 +134,6 @@ location  location  map  analozy
     { id: "69", width: 34.25, length: 36.75, area: 2595.9, status: "available", type: "residential", location: "Premium Block" },
     { id: "70", width: 30, length: 30.5, area: 2408.7, status: "available", type: "residential", location: "Premium Block" },
     { id: "71", width: 40, length: 62.75, area: 6601.7, status: "available", type: "premium", location: "Premium Block" },
-  ];#   R u n D e v e l o p e r s - v 1  
+  ];#   R u n D e v e l o p e r s - v 1 
+ 
  
