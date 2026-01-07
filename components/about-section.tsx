@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 const stats = [
   { icon: Shield, label: "RERA Regd.", value: "P-SNI-24-5050" },
-  { icon: Building2, label: "Experience", value: "9+ Years" },
+  { icon: Building2, label: "Experience", value: "10 +Years" },
   { icon: Users, label: "Families", value: "500+" },
   { icon: Home, label: "Status", value: "T&CP Approved" },
 ]
@@ -109,7 +109,7 @@ export function AboutSection() {
                 <span className="text-foreground font-semibold underline decoration-primary/30">A.K. Nagar</span> isn’t just a residential colony; it’s a statement of prestige. Spread across a prime landscape near Bypass Chowk, we offer a sanctuary of order, safety, and modern aesthetics.
               </p>
               <p>
-                Every plot is meticulously planned with <span className="text-foreground font-medium">40-feet wide internal roads</span>, lush green belts, and a commitment to infrastructure that lasts generations. 
+                Every plot is meticulously planned with <span className="text-foreground font-medium">30-feet wide internal roads</span>, lush green belts, and a commitment to infrastructure that lasts generations. 
               </p>
             </motion.div>
 

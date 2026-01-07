@@ -16,19 +16,19 @@ const projects = [
     highlight: true,
   },
   {
-    title: "Ak NagarPhase 2",
+    title: "Ak  Town.",
     tag: "Upcoming",
     desc: "Nature-friendly planning with essential infrastructure for future-ready living.",
     image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000",
   },
   {
-    title: "Ak  Nagar Phase 3",
+    title: "Ak Unnati Parisar",
     tag: "Upcoming",
     desc: "Thoughtfully planned residential colony aimed at quality and legal transparency.",
     image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=1000",
   },
   {
-    title: "Ak  Nagar Phase 4",
+    title: "Ak Suvid Bihar",
     tag: "Upcoming",
     desc: "Smart layouts designed for young families and first-time buyers in Seoni.",
     image: "/eco-home-near-forest-india.jpg",

@@ -116,7 +116,7 @@ export default function RunDevelopersPremium() {
           {/* Card 2: Run Developers Journey */}
           <div className="bg-white rounded-[45px] p-8 flex flex-col justify-between border border-black/5 shadow-sm">
             <h3 className="text-3xl font-serif leading-tight">
-              A Legacy of <br /> <span className="text-orange-600 italic">15+ Years</span> in Seoni.
+              A Legacy of <br /> <span className="text-orange-600 italic">10 + Years</span> in Seoni.
             </h3>
             <div className="flex items-center gap-4">
               <div className="flex -space-x-3">
@@ -162,7 +162,7 @@ export default function RunDevelopersPremium() {
               <div className="text-[9px] font-bold uppercase text-white/70">Plots Delivered</div>
             </div>
             <div className="bg-white rounded-[35px] p-6 flex flex-col items-center justify-center col-span-2 border border-black/5">
-               <div className="text-3xl font-serif tracking-tighter">Since 2010</div>
+               <div className="text-3xl font-serif tracking-tighter">Since 2015</div>
                <div className="text-[9px] font-bold uppercase text-gray-400 tracking-[4px] mt-1">Founding Year</div>
             </div>
           </div>

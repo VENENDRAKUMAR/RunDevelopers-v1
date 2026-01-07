@@ -24,7 +24,7 @@ const amenities = [
   {
     icon: Road,
     title: "Cemented Roads (C.C. Road)",
-    description: "40-feet wide concrete roads throughout the colony",
+    description: "30-feet wide concrete roads throughout the colony",
   },
   {
     icon: Circle,

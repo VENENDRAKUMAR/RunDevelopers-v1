@@ -50,7 +50,7 @@ function TiltCard({ children }: { children: React.ReactNode }) {
 const projectFeatures = [
   { icon: Ruler, label: "Plot Sizes", value: "1500  - 1800 Sq.ft" },
   { icon: Trees, label: "Green Area", value: "30% Open Space" },
-  { icon: Car, label: "Road Width", value: "7.5m - 9m Wide" },
+  { icon: Car, label: "Road Width", value: "25- 30  ft.  Wide" },
   { icon: Home, label: "Total Plots", value: "72+ Premium" },
 ]
 
@@ -60,9 +60,9 @@ const amenities = [
   "Underground Drainage",
   "Wide CC Roads",
   "Garden Area",
-  "Temple",
+  // "Temple",
   "Children Park",
-  "Community Hall",
+  // "Community Hall",
 ]
 
 /* ----------------------------- HoverTestCard ----------------------------- */

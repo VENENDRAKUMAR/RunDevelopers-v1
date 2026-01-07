@@ -28,7 +28,7 @@ const testimonials = [
     role: "Doctor",
     location: "Nagpur, Maharashtra",
     rating: 5,
-    text: "T&CP approved plots with bank loan facility - ye sab bahut important tha mere liye. A.K. Nagar ki planning dekh kar impressed ho gaya. 40 feet road aur proper drainage system!",
+    text: "T&CP approved plots with bank loan facility - ye sab bahut important tha mere liye. A.K. Nagar ki planning dekh kar impressed ho gaya. 30 feet road aur proper drainage system!",
   },
   {
     id: 4,
