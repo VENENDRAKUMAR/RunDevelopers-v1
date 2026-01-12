@@ -60,7 +60,7 @@ export default function LocationView() {
           </h1>
 
           <p className="text-neutral-700 leading-relaxed mb-6">
-            Kh No. 218/2, 214/1, Village Bithli,  
+            Kh No. 218/2, 214/1, Village Bithli,  Mandla Road near
             Bypass Chowk, Seoni, Madhya Pradesh – 480661
           </p>
 

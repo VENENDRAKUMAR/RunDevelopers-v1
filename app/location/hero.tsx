@@ -53,7 +53,7 @@ export default function LocationHero() {
           className="mt-6 max-w-3xl mx-auto text-lg text-neutral-700"
         >
           A thoughtfully planned plotting project by{" "}
-          <strong>Run Developers</strong>, located near Bypass Chowk, Village
+          <strong>Run Developers</strong>, located Mandla Road near Bypass Chowk, Village
           Bithli — designed for peaceful living with excellent connectivity.
         </motion.p>
 
