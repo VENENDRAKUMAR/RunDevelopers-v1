@@ -68,7 +68,7 @@ export default function PremiumProjectsHero() {
             <div className="reveal mt-20 bg-white/50 backdrop-blur-md rounded-[40px] p-8 border border-white/60 shadow-xl max-w-md">
               <p className="text-[10px] font-bold uppercase tracking-[4px] text-zinc-400 mb-6 italic">Upcoming Developments</p>
               <ul className="space-y-4">
-                {["Green Valley Extension", "Sunrise Enclave", "Urban Nest"].map((item, i) => (
+                {["AK Nagar ", " AK Unnati Parisar", "AK Suvid Bihar  "].map((item, i) => (
                   <li key={i} className="flex justify-between items-center border-b border-zinc-200/50 pb-3 group cursor-pointer">
                     <span className="text-sm font-bold tracking-tight group-hover:text-orange-600 transition-colors">{item}</span>
                     <ArrowUpRight className="w-4 h-4 text-zinc-300" />
@@ -102,12 +102,10 @@ export default function PremiumProjectsHero() {
                       <div>
                         <h3 className="text-3xl font-serif font-bold tracking-tighter">AK Nagar</h3>
                         <p className="text-[10px] font-bold text-orange-600 uppercase tracking-[2px] mt-1 flex items-center gap-1">
-                          <MapPin className="w-3 h-3" /> Bypass Road, Seoni
+                          <MapPin className="w-3 h-3" /> Mandla road, bypass road, bithli, Seoni
                         </p>
                       </div>
-                      <div className="w-12 h-12 bg-zinc-100 rounded-full flex items-center justify-center">
-                        <ArrowUpRight className="w-6 h-6 text-zinc-900" />
-                      </div>
+                 
                     </div>
                     <p className="text-xs text-zinc-500 leading-relaxed font-medium">
                       A thoughtfully planned residential colony offering wide internal roads, 
