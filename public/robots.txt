@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rundevlopers.com/sitemap.xml

@@ -8,7 +8,7 @@ const footerLinks = {
   company: [
     { name: "About Us", href: "/about" },
     { name: "A.K. Nagar", href: "/projects" },
-    { name: "Our Process", href: "/process" },
+ 
     { name: "Amenities", href: "/projects" },
   ],
   support: [
@@ -18,9 +18,9 @@ const footerLinks = {
     { name: "Inventory", href: "/plot-layout" },
   ],
   legal: [
-    { name: "Privacy Policy", href: "#" },
-    { name: "Terms of Service", href: "#" },
-    { name: "RERA Details", href: "#" },
+    { name: "Privacy Policy", href: "/" },
+    { name: "Terms of Service", href: "/" },
+    { name: "RERA Details", href: "/" },
   ],
 };
 
