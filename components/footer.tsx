@@ -18,9 +18,9 @@ const footerLinks = {
     { name: "Inventory", href: "/plot-layout" },
   ],
   legal: [
-    { name: "Privacy Policy", href: "/" },
-    { name: "Terms of Service", href: "/" },
-    { name: "RERA Details", href: "/" },
+    { name: "Privacy Policy", href: "/Policy" },
+    { name: "Terms of Service", href: "/Terms" },
+    { name: "RERA Details", href: "/ReraDetails" },
   ],
 };
 
@@ -77,7 +77,7 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               {[Facebook, Instagram, MessageCircle].map((Icon, i) => (
-                <a key={i} href="#" className="w-12 h-12 rounded-2xl bg-white flex items-center justify-center border border-zinc-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all text-zinc-400 hover:text-black">
+                <a key={i} href="/" className="w-12 h-12 rounded-2xl bg-white flex items-center justify-center border border-zinc-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all text-zinc-400 hover:text-black">
                   <Icon size={20} />
                 </a>
               ))}
@@ -108,9 +108,13 @@ export function Footer() {
         {/* BOTTOM BAR */}
         <div className="py-10 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex flex-col md:flex-row items-center gap-6 text-[11px] font-bold uppercase tracking-widest text-zinc-400">
-            <p>© 2025 Run Developers</p>
+       <p className="text-slate-500 font-medium">
+  © {new Date().getFullYear()} <span className="text-slate-900 font-bold">Run Developers</span>. All Rights Reserved.
+</p>
             <span className="hidden md:block w-1 h-1 bg-zinc-300 rounded-full" />
-            <p className="text-zinc-300">RERA: MP/SEONI/XXXXX</p>
+            <p className="text-zinc-300">RERA: MP/SEONI/P-SNI-24-5050
+
+</p>
           </div>
           
           <button 
