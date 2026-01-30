@@ -54,9 +54,9 @@ export function Footer() {
               </h3>
               <p className="text-zinc-500 font-medium italic">Join 200+ families at A.K. Nagar, Seoni.</p>
             </div>
-            <button className="bg-black text-white px-12 py-6 rounded-full flex items-center gap-4 font-bold text-lg hover:bg-[#f15a24] transition-all group shadow-xl">
+            <a  href="/contact" className="bg-black text-white px-12 py-6 rounded-full flex items-center gap-4 font-bold text-lg hover:bg-[#f15a24] transition-all group shadow-xl">
               Get in Touch <ArrowRight className="group-hover:translate-x-2 transition-transform" />
-            </button>
+            </a>
           </div>
         </div>
 

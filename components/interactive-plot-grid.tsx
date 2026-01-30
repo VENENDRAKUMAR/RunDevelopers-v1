@@ -11,7 +11,7 @@ const plotsData = [
   { id: "1", w1: 30, w2: 31, l1: 105, l2: 97, area: 3080.5, status: "sold", type: "residential", location: "North Side" },
   { id: "2", w1: 30, w2: 31, l1: 97, l2: 88.5, area: 2828.9, status: "sold", type: "residential", location: "North Side" },
   { id: "3", w1: 30, w2: 30, l1: 60, l2: 60, area: 1800, status: "sold", type: "residential", location: "North Side" },
-  { id: "4", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "sold", type: "commercial", location: "North Side" },
+  { id: "4", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "sold", type: "residential", location: "North Side" },
   { id: "5", w1: 30, w2: 30, l1: 60, l2: 60, area: 1800, status: "sold", type: "residential", location: "North Side" },
   { id: "6", w1: 30, w2: 30, l1: 60, l2: 60, area: 1800, status: "sold", type: "residential", location: "North Side" },
   { id: "7", w1: 30, w2: 30, l1: 60, l2: 60, area: 1800, status: "sold", type: "residential", location: "North Side" },
@@ -32,17 +32,17 @@ const plotsData = [
  
   { id: "21", w1: 30, w2: 30, l1: 60, l2: 60, area: 1800, status: "available", type: "residential", location: "North Side" },
   { id: "22", w1: 30, w2: 30, l1: 60, l2: 60, area: 1800, status: "available", type: "residential", location: "North Side" },
-  { id: "23", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "sold", type: "commercial", location: "East Side" },
-  { id: "24", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "sold", type: "commercial", location: "East Side" },
+  { id: "23", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "sold", type: "residential", location: "East Side" },
+  { id: "24", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "sold", type: "residential", location: "East Side" },
   //   sold only  23 ,24
 
-  { id: "25", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "available", type: "commercial", location: "East Side" },
-  { id: "26", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "sold", type: "commercial", location: "East Side" },
-  { id: "27", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "available", type: "commercial", location: "East Side" },
-  { id: "28", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "available", type: "commercial", location: "East Side" },
-  { id: "29", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "available", type: "commercial", location: "East Side" },
-  { id: "30", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "sold", type: "commercial", location: "East Side" },
-  { id: "31", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "available", type: "commercial", location: "East Side" },
+  { id: "25", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "available", type: "residential", location: "East Side" },
+  { id: "26", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "sold", type: "residential", location: "East Side" },
+  { id: "27", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "available", type: "residential", location: "East Side" },
+  { id: "28", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "available", type: "residential", location: "East Side" },
+  { id: "29", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "available", type: "residential", location: "East Side" },
+  { id: "30", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "sold", type: "residential", location: "East Side" },
+  { id: "31", w1: 25, w2: 25, l1: 60, l2: 60, area: 1500, status: "available", type: "residential", location: "East Side" },
   { id: "32", w1: 23, w2: 23, l1: 60, l2: 60, area: 1380, status: "available", type: "residential", location: "East Side" },
   //   plot 33 to  36  sold
   { id: "33", w1: 30, w2: 30, l1: 52, l2: 52, area: 1560, status: "sold", type: "residential", location: "East Side" },
@@ -79,16 +79,16 @@ const plotsData = [
   // ploot 62 to  66 sold
   { id: "62", w1: 35, w2: 35, l1: 37.5, l2: 37.5, area: 1312.5, status: "sold", type: "corner", location: "West Side" },
   { id: "63", w1: 35, w2: 35, l1: 27.5, l2: 27.5, area: 962.5, status: "sold", type: "corner", location: "West Side" },
-  { id: "64", w1: 35, w2: 35, l1: 99.5, l2: 100.5, area: 3500, status: "available", type: "premium", location: "West Side" },
-  { id: "65", w1: 30, w2: 30, l1: 100.5, l2: 101.5, area: 3030, status: "sold", type: "premium", location: "Premium Block" },
-  { id: "66", w1: 40, w2: 40, l1: 60, l2: 60, area: 2400, status: "available", type: "premium", location: "Premium Block" },
-  { id: "67", w1: 30, w2: 30, l1: 60, l2: 60, area: 1800, status: "available", type: "premium", location: "Premium Block" },
+  { id: "64", w1: 35, w2: 35, l1: 99.5, l2: 100.5, area: 3500, status: "available", type: "residential", location: "West Side" },
+  { id: "65", w1: 30, w2: 30, l1: 100.5, l2: 101.5, area: 3030, status: "sold", type: "residential", location: "Premium Block" },
+  { id: "66", w1: 40, w2: 40, l1: 60, l2: 60, area: 2400, status: "available", type: "residential", location: "Premium Block" },
+  { id: "67", w1: 30, w2: 30, l1: 60, l2: 60, area: 1800, status: "available", type: "residential", location: "Premium Block" },
   { id: "68", w1: 31.5, w2: 33, l1: 60, l2: 60, area: 1935, status: "available", type: "residential", location: "Premium Block" },
   { id: "69", w1: 34.25, w2: 36.75, l1: 69.75, l2: 76.5, area: 2595.9, status: "available", type: "residential", location: "Premium Block" },
   { id: "70", w1: 30, w2: 30.5, l1: 76.5, l2: 82.75, area: 2408.7, status: "available", type: "residential", location: "Premium Block" },
   //  plot 71 sold 
-  { id: "71", w1: 40, w2: 40, l1: 60, l2: 60, area: 2400, status: "sold", type: "premium", location: "Premium Block" },
-  { id: "72", w1: 40, w2: 62.75, l1: 92, l2: 165, area: 6601.7, status: "available", type: "premium", location: "Premium Block" }
+  { id: "71", w1: 40, w2: 40, l1: 60, l2: 60, area: 2400, status: "sold", type: "residential", location: "Premium Block" },
+  { id: "72", w1: 40, w2: 62.75, l1: 92, l2: 165, area: 6601.7, status: "available", type: "residential", location: "Premium Block" }
 ];
 
 export function InteractivePlotGrid() {
@@ -116,7 +116,7 @@ export function InteractivePlotGrid() {
               Explore A.K. Nagar <span className="text-zinc-400 font-light text-3xl md:text-4xl">Layout</span>
             </h2>
             <p className="text-zinc-500 text-lg leading-relaxed">
-              Click on a plot number to view accurate boundary dimensions ($w_1, w_2, l_1, l_2$) and real-time availability.
+              Click on a plot number to view accurate boundary dimensions  and real-time availability.
             </p>
           </div>
 
@@ -225,10 +225,7 @@ export function InteractivePlotGrid() {
                       <span className="text-[10px] font-bold text-zinc-500">SQ. FEET</span>
                     </div>
 
-                    <div className="bg-zinc-50 dark:bg-zinc-800/50 p-5 rounded-[2rem] flex flex-col justify-center items-center">
-                      <p className="text-[10px] text-zinc-400 font-bold uppercase mb-1">Location</p>
-                      <p className="text-sm font-bold text-center text-zinc-600 dark:text-zinc-300">{selectedPlot.location}</p>
-                    </div>
+                 
                   </div>
 
                   <div className="space-y-4 mb-8 px-2">
@@ -238,7 +235,7 @@ export function InteractivePlotGrid() {
                     </div>
                     <div className="flex items-center gap-3 text-zinc-500">
                       <MapPin className="w-4 h-4 text-zinc-400" />
-                      <span className="text-xs font-bold uppercase tracking-wider">Bypass Road, Seoni</span>
+                      <span className="text-xs font-bold uppercase tracking-wider">Mandla Road Near Bypass Chowk, Seoni</span>
                     </div>
                   </div>
 

@@ -44,7 +44,7 @@ const amenities = [
   {
     icon: Droplets,
     title: "Continuous Water Supply",
-    description: "24/7 water supply for every plot with bore well",
+    description: "24/7 water supply for every plot .",
   },
   {
     icon: ShieldCheck,

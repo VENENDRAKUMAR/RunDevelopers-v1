@@ -106,10 +106,10 @@ export function AboutSection() {
               transition={{ delay: 0.4 }}
             >
               <p>
-                <span className="text-foreground font-semibold underline decoration-primary/30">A.K. Nagar</span> isn’t just a residential colony; it’s a statement of prestige. Spread across a prime landscape near Bypass Chowk, we offer a sanctuary of order, safety, and modern aesthetics.
+                <span className="text-foreground font-semibold underline decoration-primary/30">A.K. Nagar</span> isn’t just a residential colony; it’s a statement of prestige. Spread across a prime landscape Mandla Road near Bypass Chowk Seoni, we offer a sanctuary of order, safety, and modern aesthetics.
               </p>
               <p>
-                Every plot is meticulously planned with <span className="text-foreground font-medium">30-feet wide internal roads</span>, lush green belts, and a commitment to infrastructure that lasts generations. 
+                Every plot is meticulously planned with <span className="text-foreground font-medium">30-feet wide internal roads</span> and a commitment to infrastructure that lasts generations. 
               </p>
             </motion.div>
 
@@ -137,9 +137,9 @@ export function AboutSection() {
               animate={isInView ? { opacity: 1 } : {}}
               transition={{ delay: 0.8 }}
             >
-              <button className="w-full sm:w-auto px-8 py-4 bg-primary text-primary-foreground rounded-full font-semibold hover:opacity-90 transition-all shadow-lg shadow-primary/25">
+              <a href="/images/layout-map.png" className="w-full sm:w-auto px-8 py-4 bg-primary text-primary-foreground rounded-full font-semibold hover:opacity-90 transition-all shadow-lg shadow-primary/25">
                 Download Brochure
-              </button>
+              </a>
               
               <div className="flex items-center gap-4">
                 <div className="h-12 w-12 rounded-full border border-border flex items-center justify-center bg-white dark:bg-zinc-900 shadow-sm">

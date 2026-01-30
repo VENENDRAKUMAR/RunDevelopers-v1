@@ -24,7 +24,7 @@ export default function PremiumProjectsHero() {
   return (
     <section
       ref={sectionRef}
-      className="bg-[#ebeae6] min-h-screen py-20 px-6 lg:px-16 font-sans text-[#1a1a1a]"
+      className="bg-[#ebeae6] min-h-screen py-20 px-6 lg:px-16  mt-4 font-sans text-[#1a1a1a]"
     >
       <div className="max-w-[1500px] mx-auto">
         
@@ -92,9 +92,7 @@ export default function PremiumProjectsHero() {
                   />
                   
                   {/* Floating Status Badge */}
-                  <div className="absolute top-8 left-8 bg-black/80 backdrop-blur-xl text-white px-5 py-2 rounded-full text-[10px] font-bold uppercase tracking-[3px]">
-                    Ongoing Project
-                  </div>
+               
 
                   {/* Property Info Overlay */}
                   <div className="absolute bottom-8 left-1/2 -translate-x-1/2 w-[90%] bg-white/95 backdrop-blur-md p-8 rounded-[40px] shadow-2xl">

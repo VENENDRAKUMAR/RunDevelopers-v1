@@ -31,7 +31,7 @@ const projects = [
     title: "Ak Suvid Bihar",
     tag: "Upcoming",
     desc: "Smart layouts designed for young families and first-time buyers in Seoni.",
-    image: "/eco-home-near-forest-india.jpg",
+    image: "/images/plot-layout-full.png",
   },
 ];
 

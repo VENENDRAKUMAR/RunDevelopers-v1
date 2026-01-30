@@ -356,7 +356,7 @@ export function FeaturedProject() {
           </h2>
 
           <p className="text-muted-foreground max-w-2xl mx-auto text-base lg:text-lg leading-relaxed">
-            Premium RERA approved residential colony at Bypass Chowk, Bithli, Seoni — your gateway to peaceful living
+            Premium RERA approved residential colony at Mandla Road Near Bypass Chowk, Bithli, Seoni — your gateway to peaceful living
           </p>
         </motion.div>
 
@@ -381,30 +381,12 @@ export function FeaturedProject() {
               </div>
 
               <div className="absolute top-4 left-4 hidden md:block">
-  <div className="inline-flex items-center gap-2 bg-gradient-to-r from-yellow-500 to-amber-400 text-white px-3 py-1.5 rounded-full shadow-md">
-    <span className="text-xs font-semibold">Premium</span>
-    <span className="text-[10px] opacity-90">Limited Plots</span>
-  </div>
+
 </div>
 
               <div className="absolute top-4 right-4 flex flex-col sm:flex-row sm:items-center sm:gap-3 gap-2  hidden md:block">
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={isInView ? { opacity: 1, scale: 1 } : {}}
-                  transition={{ delay: 0.45 }}
-                  className="px-3 py-1.5 rounded-full bg-slate-800/70 text-white text-xs font-semibold backdrop-blur-sm border border-slate-700/30"
-                >
-                  RERA: P-SNI-24-5050
-                </motion.div>
+           
 
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={isInView ? { opacity: 1, scale: 1 } : {}}
-                  transition={{ delay: 0.55 }}
-                  className="px-3 py-1.5 rounded-full bg-emerald-600 text-white text-xs font-semibold backdrop-blur-sm border border-emerald-500/30"
-                >
-                  T&CP Approved
-                </motion.div>
               </div>
 
               <div className="absolute bottom-4 left-4 right-4">

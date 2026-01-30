@@ -35,12 +35,12 @@ export default function RunDevelopersPremium() {
               </h1>
               
               <div className="flex flex-wrap gap-4">
-                <button className="bg-black text-white px-10 py-5 rounded-full flex items-center gap-3 hover:scale-105 transition-all font-bold text-lg shadow-xl">
+                <a href="/projects" className="bg-black text-white px-10 py-5 rounded-full flex items-center gap-3 hover:scale-105 transition-all font-bold text-lg shadow-xl">
                   Explore Projects <MoveRight className="w-5 h-5" />
-                </button>
-                <button className="bg-white border border-black/10 text-black px-10 py-5 rounded-full font-bold text-lg hover:bg-gray-50 transition-all">
+                </a>
+                <a href="/contact" className="bg-white border border-black/10 text-black px-10 py-5 rounded-full font-bold text-lg hover:bg-gray-50 transition-all">
                   Contact Us
-                </button>
+                </a>
               </div>
             </motion.div>
 
@@ -138,12 +138,12 @@ export default function RunDevelopersPremium() {
             </div>
             <div className="space-y-4">
               <div className="flex justify-between border-b border-white/10 pb-2 italic font-serif">
-                <span>A.K. Nagar</span>
-                <span className="text-red-500 text-xs">Phase 1 </span>
+                <span>A.K. Nagar </span>
+                <span className="text-red-500 text-xs">Ongoing </span>
               </div>
               <div className="flex justify-between border-b border-white/10 pb-2 italic font-serif">
-                <span>A.K. Nagar</span>
-                <span className="text-gray-500 text-xs tracking-widest">New Launch</span>
+                <span>A.K. Town </span>
+                <span className="text-gray-500 text-xs tracking-widest">Upcoming </span>
               </div>
             </div>
             <div className="text-4xl font-serif mt-4">12% <span className="text-[10px] uppercase font-sans text-gray-500 block">Avg. Annual Appreciation</span></div>

@@ -19,10 +19,7 @@ export default function RunDevelopersConstructionUI() {
                 className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 transition-all duration-500"
               />
               
-              {/* Image Overlay Label */}
-              <div className="absolute top-6 left-6 bg-white/30 backdrop-blur-md px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest text-white border border-white/20">
-                On-Site Excellence
-              </div>
+           
             </div>
 
             {/* Card Content Area */}

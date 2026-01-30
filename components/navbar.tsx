@@ -59,8 +59,7 @@ export function Navbar() {
         >
           <img src="/images/mainlogo.png" alt="Run" className="h-10 md:h-12 w-auto object-contain" />
           <div className="hidden sm:block text-zinc-900">
-             <p className="text-xs font-bold tracking-[3px] leading-none">RUN</p>
-             <p className="text-[10px] font-bold text-zinc-400 tracking-[1px]">DEVELOPERS</p>
+             
           </div>
         </div>
 

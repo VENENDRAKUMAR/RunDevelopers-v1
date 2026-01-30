@@ -10,23 +10,23 @@ import { MagneticButton } from "./magnetic-button"
 const landmarks = [
   { icon: School, name: "Podar School", distance: "2 min", direction: "Adjacent", color: "text-blue-500" },
   { icon: Fuel, name: "Jain Petrol Pump", distance: "1 min", direction: "Near Seoni Road", color: "text-orange-500" },
-  { icon: Building2, name: "Bypass Chowk", distance: "At Location", direction: "Main Intersection", color: "text-emerald-500" },
+  { icon: Building2, name: "Near Bypass Chowk", distance: "At Location", direction: "Main Intersection", color: "text-emerald-500" },
   { icon: Car, name: "Mandla Road", distance: "Direct Access", direction: "East Side", color: "text-purple-500" },
 ]
 
 // Categorized for better scanning
 const connectivity = [
   { label: "Transport", items: [
-    { from: "Railway Station", dist: "5 km", icon: Train },
-    { from: "Bus Stand", dist: "6 km", icon: Car },
+    { from: "Railway Station Seoni", dist: "5 km", icon: Train },
+    { from: "Bus Stand Seoni", dist: "6 km", icon: Car },
   ]},
   { label: "Education", items: [
-    { from: "Podar International", dist: "600 m", icon: School },
+    { from: "Podar International School", dist: "600 m", icon: School },
     { from: "Bhagat  Singh Rai Engg. College", dist: "500 m", icon: School },
   ]},
   { label: "Healthcare", items: [
-    { from: "Govt. Hospital", dist: "5 km", icon: Hospital },
-    { from: "Medical College", dist: "7 km", icon: Hospital },
+    { from: "Govt. Hospital Seoni ", dist: "5 km", icon: Hospital },
+    { from: "Govt. Medical College", dist: "7 km", icon: Hospital },
   ]},
 ]
 
@@ -76,7 +76,7 @@ export function LocationSection() {
                 <img
                   src="/images/location-map-premium.png"
                   alt="Location Map"
-                  className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                  className="w-full h-full object-contain grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                 />
                 
                 {/* Floating Map Pin */}
@@ -126,7 +126,7 @@ export function LocationSection() {
                   <h3 className="text-xl font-bold tracking-tight">A.K. Nagar, Seoni</h3>
                   <p className="text-sm mt-1 leading-relaxed">
                     Kh No. 218/2, 214/1, Village Bithli,<br />
-                    Bypass Chowk, Seoni, M.P. 480661
+                   Mandla Road Near  Bypass Chowk, Seoni, M.P. 480661
                   </p>
                 </div>
               </div>
@@ -162,20 +162,7 @@ export function LocationSection() {
             </div>
 
             {/* Action Buttons */}
-            <div className="grid grid-cols-2 gap-4 pt-4">
-              <MagneticButton>
-                <Button className="w-full h-14 rounded-2xl bg-primary hover:bg-primary/90  font-bold gap-2">
-                  <Navigation className="w-4 h-4" />
-                  Navigate
-                </Button>
-              </MagneticButton>
-              <MagneticButton>
-                <Button variant="outline" className="w-full h-14 rounded-2xl  gap-2">
-                  <Phone className="w-4 h-4" />
-                  Call  Now 
-                </Button>
-              </MagneticButton>
-            </div>
+            
           </div>
         </div>
       </div>
