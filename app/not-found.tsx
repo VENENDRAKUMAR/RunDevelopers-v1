@@ -5,27 +5,42 @@ import { Button } from "@/components/ui/button"
 import { Home, ArrowLeft, Search } from "lucide-react"
 import Link from "next/link"
 
+function mulberry32(seed: number) {
+  return () => {
+    seed |= 0
+    seed = (seed + 0x6d2b79f5) | 0
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed)
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+  }
+}
+
+const rand = mulberry32(42)
+const particles = [...Array(20)].map(() => ({
+  left: `${rand() * 100}%`,
+  top: `${rand() * 100}%`,
+  duration: 3 + rand() * 2,
+  delay: rand() * 2,
+}))
+
 export default function NotFound() {
   return (
     <div className="min-h-screen bg-background flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0">
-        {[...Array(20)].map((_, i) => (
+        {particles.map((p, i) => (
           <motion.div
             key={i}
             className="absolute w-2 h-2 bg-primary/20 rounded-full"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-            }}
+            style={{ left: p.left, top: p.top }}
             animate={{
               y: [0, -30, 0],
               opacity: [0.2, 0.8, 0.2],
               scale: [1, 1.5, 1],
             }}
             transition={{
-              duration: 3 + Math.random() * 2,
+              duration: p.duration,
               repeat: Number.POSITIVE_INFINITY,
-              delay: Math.random() * 2,
+              delay: p.delay,
             }}
           />
         ))}
